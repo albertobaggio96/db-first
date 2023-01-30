@@ -1,0 +1,22 @@
+Nome tabella: auto_usate
+
+    id -                        intero      - MEDIUMINT         -   PRIMARY_KEY AUTO_INCREMENT
+    marca                       stringa     - 
+    modello                     stringa
+    motorizzazione              stringa
+    potenza                     intero      - FLOAT(2, 1)
+    cambio                      stringa
+    consumi_per_km              intero      - FLOAT(5, 3)
+    emissioni                   stringa
+    posti_a_sedere              numero      - TINYINT
+    proprietari                 stringa
+    anno_di_produzione          date
+    anno_di_immatricolazione    date
+    km_percorsi                 intero
+    certificato_di_garanzia     intero
+    venditore                   stringa
+    costo                       intero
+
+
+
+
